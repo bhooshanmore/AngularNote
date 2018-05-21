@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>CategoryId</th>
+      <th>categoryName</th>
+      <th>categoryDescription</th>
+      <th>categoryCreatedBy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let category of categories">
+      <td>{{ category.categoryId }}</td>
+      <td>{{ category.categoryName }}</td>
+      <td>{{ category.categoryDescription }}</td>
+      <td>{{ category.categoryCreatedBy}}</td>
+    </tr>
+  </tbody>
+</table>

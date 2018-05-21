@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ReminderId</th>
+      <th>ReminderName</th>
+      <th>ReminderDescription</th>
+      <th>ReminderType</th>
+      <th>ReminderCreatedBy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let reminder of reminders">
+      <td>{{ reminder.reminderId }}</td>
+      <td>{{ reminder.reminderName }}</td>
+      <td>{{ reminder.reminderType }}</td>
+      <td>{{ reminder.reminderDescription}}</td>
+      <td>{{ reminder.reminderCreatedBy}}</td>
+    </tr>
+  </tbody>
+</table>

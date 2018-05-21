@@ -1,0 +1,72 @@
+{
+    "users": [
+        {
+            "userId": "1",
+            "userName": "Rutu",
+            "userPassword": "rutu123",
+            "userMobile": "9561774800"
+        },
+        {
+            "userId": "2",
+            "userName": "Sharvu",
+            "userPassword": "sharvu123",
+            "userMobile": "9561774800"
+        },
+        {
+            "userId": "3",
+            "userName": "Tanu",
+            "userPassword": "tanu123",
+            "userMobile": "9561774800"
+        },
+        {
+            "userId": "4",
+            "userName": "Purva",
+            "userPassword": "purve123",
+            "userMobile": "9561774800"
+        }
+    ],
+    "reminders": [
+        {
+            "reminderId": "1",
+            "reminderName": "Keepnote",
+            "reminderDescription": "The Note has approaching due date soon",
+            "reminderType": "Email",
+            "reminderCreatedBy": "Rutu"
+        },
+        {
+            "reminderId": "2",
+            "reminderName": "Keepnote",
+            "reminderDescription": "The Note has approaching due date soon",
+            "reminderType": "SMS",
+            "reminderCreatedBy": "Sharvu"
+        },
+        {
+            "reminderId": "3",
+            "reminderName": "Keepnote",
+            "reminderDescription": "The Note has approaching due date soon",
+            "reminderType": "Notification",
+            "reminderCreatedBy": "Purva"
+        }
+    ],
+
+    "categories":[
+        {
+            "categoryId":"1",
+            "categoryName":"official",
+            "categoryDescription":"Store official notes here",
+            "categoryCreatedBy":"Rutu"
+        },
+        {
+            "categoryId": "2",
+            "categoryName": "entertainment",
+            "categoryDescription": "Store entertainment notes here",
+            "categoryCreatedBy": "Sharvu"
+        },
+        {
+            "categoryId": "3",
+            "categoryName": "Banking",
+            "categoryDescription": "Store banking notes here",
+            "categoryCreatedBy": "Purva"
+        }
+    ]
+}
