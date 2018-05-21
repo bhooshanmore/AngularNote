@@ -30,5 +30,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 - Install json-server. The idea here is to use json-server to serve static pages and data for all modules.
   
   
-  sudo npm install -g json-server
-  json-server --watch src/data/db.json --port 4000
+  - sudo npm install -g json-server
+  - json-server --watch src/data/db.json --port 4000
